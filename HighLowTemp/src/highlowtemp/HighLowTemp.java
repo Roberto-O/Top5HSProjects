@@ -13,7 +13,7 @@ public class HighLowTemp  {
     int m, n, c, d;
     Scanner in = new Scanner(System.in);
  
-      System.out.println("Enter the number of rows and columns of matrix");
+      System.out.println("Enter the number of rows and columns of matrix (recommended 12 1)");
       m = in.nextInt();
       n = in.nextInt();
  
@@ -66,7 +66,7 @@ public class HighLowTemp  {
                 }
             }
         }
-       System.out.println("\nThe Lowest temperture was: " + low + "\nIt is in index element: " + lowI + "," + lowJ);
+       System.out.println("\nThe Lowest temperture was: " + low + "\nIt is in index element: " + lowI + "," + lowJ + "\n");
    }
     
  //------------------------------------------------------------------------------------------------------------------------   
